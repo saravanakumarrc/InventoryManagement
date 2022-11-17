@@ -1,0 +1,317 @@
+2022-11-17 20:14:38,157 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-17 20:14:38,202 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-11-17 20:14:38,205 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 20:14:39,455 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 20:14:39,465 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:11:30,251 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-17 21:11:30,252 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-11-17 21:11:30,258 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:11:31,459 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:11:31,465 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:11:44,798 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:11:44] "GET / HTTP/1.1" 200 -
+2022-11-17 21:11:45,028 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:11:45] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-17 21:11:46,809 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:11:46] "POST /login HTTP/1.1" 200 -
+2022-11-17 21:11:46,837 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:11:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 21:11:56,166 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:11:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-17 21:11:56,174 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:11:56] "GET /login HTTP/1.1" 200 -
+2022-11-17 21:11:56,210 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:11:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 21:12:12,953 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:12:12] "POST /login HTTP/1.1" 200 -
+2022-11-17 21:12:12,980 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:12:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 21:26:05,481 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-17 21:26:05,481 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-11-17 21:26:05,485 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:26:06,841 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:26:06,848 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:27:40,688 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:27:41,135 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:27:45,409 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-17 21:27:45,409 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-11-17 21:27:45,413 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:27:46,835 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:27:46,841 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:29:01,830 DEBUG python_http_client.client Thread-2 (process_request_thread) : POST Request: https://api.sendgrid.com/v3/mail/send
+2022-11-17 21:29:01,834 DEBUG python_http_client.client Thread-2 (process_request_thread) : PAYLOAD: b'{"from": {"email": "raagulsridharan01@gmail.com"}, "subject": "Sending with Twilio SendGrid is Fun", "personalizations": [{"to": [{"email": "saravanakumarrc@gmail.com"}]}], "content": [{"type": "text/html", "value": "<strong>and easy to do anywhere, even with Python</strong>"}]}'
+2022-11-17 21:29:01,834 DEBUG python_http_client.client Thread-2 (process_request_thread) : HEADERS: {'Authorization': 'Bearer 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', 'User-agent': 'sendgrid/6.9.7;python', 'Accept': 'application/json', 'Content-type': 'application/json'}
+2022-11-17 21:29:03,054 DEBUG python_http_client.client Thread-2 (process_request_thread) : POST Response: 202 b''
+2022-11-17 21:29:03,107 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:29:03] "GET / HTTP/1.1" 200 -
+2022-11-17 21:29:03,319 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:29:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 21:30:10,078 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:30:10,557 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:30:12,051 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:30:12,057 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:30:17,130 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:30:17,695 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:30:18,998 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:30:19,008 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:31:31,653 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:31:32,198 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:31:33,538 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:31:33,544 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:34:11,956 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:34:12,514 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:34:13,826 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:34:13,832 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:36:54,296 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:36:54,799 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:37:50,145 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:37:51,492 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:37:51,498 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:38:07,633 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:38:08,237 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:38:09,556 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:38:09,563 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:38:18,641 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:38:19,227 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:38:20,699 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:38:20,705 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:38:48,063 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:38:48,580 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:38:49,932 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:38:49,946 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:39:00,112 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:39:00,707 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:39:01,997 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:39:02,003 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:39:29,249 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:39:29,829 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:39:31,262 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:39:31,267 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:39:39,376 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:39:39,977 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:39:41,378 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:39:41,383 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:39:43,420 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:39:43,992 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:39:45,441 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:39:45,447 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:39:49,494 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:39:50,058 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:39:51,387 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:39:51,392 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:41:27,221 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:41:27,657 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:41:29,035 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:41:29,040 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:41:38,138 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:41:38,743 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:41:40,129 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:41:40,142 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:41:47,232 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:41:47,860 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:41:49,220 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:41:49,226 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:42:45,824 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:42:46,434 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:42:47,799 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:42:47,806 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:43:48,376 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:43:48,936 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:43:50,428 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:43:50,435 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:47:12,282 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:47:12,878 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:47:14,294 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:47:14,300 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:50:29,939 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:50:30,530 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:50:31,959 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:50:31,964 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:50:44,080 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:50:44,661 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:50:46,180 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:50:46,185 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:51:02,344 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:51:02,886 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:51:04,313 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:51:04,319 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:51:28,585 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:51:29,141 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:51:30,532 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:51:30,539 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:52:13,000 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:52:13,537 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:52:14,867 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:52:14,873 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:52:26,985 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:52:27,578 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:52:28,930 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:52:28,937 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:52:37,508 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-17 21:52:37,508 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-11-17 21:52:37,511 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:52:40,577 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:52:40,582 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:54:01,303 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:54:01,601 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:54:03,306 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:54:03,322 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:54:07,316 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:54:07] "POST /login HTTP/1.1" 200 -
+2022-11-17 21:54:07,527 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:54:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 21:54:12,019 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:54:12] "GET /add_stock HTTP/1.1" 200 -
+2022-11-17 21:54:12,046 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:54:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 21:55:49,335 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:55:49,842 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:55:51,329 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:55:51,336 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:56:04,493 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:56:05,033 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:56:07,025 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:56:07,034 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:56:24,233 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:56:24,768 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:56:26,270 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:56:26,276 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:56:29,312 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:56:29,867 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:56:31,290 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:56:31,297 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:56:33,325 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:56:33,893 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:56:35,314 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:56:35,320 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:56:41,379 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:56:41,964 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:56:43,354 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:56:43,360 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:56:48,458 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:56:49,049 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:56:50,591 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:56:50,598 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:57:16,005 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:57:16] "GET /add_stock HTTP/1.1" 200 -
+2022-11-17 21:57:16,167 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:57:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 21:57:30,385 INFO app Thread-4 (process_request_thread) : stock:None
+2022-11-17 21:57:30,451 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:57:30] "POST /add_stock HTTP/1.1" 200 -
+2022-11-17 21:57:30,478 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:57:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 21:57:34,896 INFO app Thread-6 (process_request_thread) : argument name:Apple
+2022-11-17 21:57:34,935 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:57:34] "GET /add_sale?name=Apple HTTP/1.1" 200 -
+2022-11-17 21:57:34,962 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:57:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 21:57:55,457 INFO app Thread-8 (process_request_thread) : stock:{'_id': ObjectId('637660f24e578a556325e4fa'), 'name': 'Apple', 'description': 'Apple Iphone pro', 'onhand': 10, 'limit': 5, 'email': 'raagulsridharan01@gmail.com'}
+2022-11-17 21:57:55,577 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:57:55] "[35m[1mPOST /add_sale HTTP/1.1[0m" 500 -
+2022-11-17 21:57:55,699 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:57:55] "GET /add_sale?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-11-17 21:57:55,808 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:57:55] "GET /add_sale?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-11-17 21:57:55,908 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:57:55] "GET /add_sale?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-11-17 21:57:55,952 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:57:55] "[36mGET /add_sale?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-17 21:58:37,534 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 21:58:37,908 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:58:39,720 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:58:39,728 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:58:49,071 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-17 21:58:49,071 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-11-17 21:58:49,075 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 21:58:50,358 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 21:58:50,363 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 21:59:00,686 INFO app Thread-2 (process_request_thread) : argument name:Apple
+2022-11-17 21:59:00,951 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:59:00] "GET /add_sale?name=Apple HTTP/1.1" 200 -
+2022-11-17 21:59:01,088 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:59:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 21:59:18,273 INFO app Thread-4 (process_request_thread) : stock:{'_id': ObjectId('637660f24e578a556325e4fa'), 'name': 'Apple', 'description': 'Apple Iphone pro', 'onhand': 4, 'limit': 5, 'email': 'raagulsridharan01@gmail.com'}
+2022-11-17 21:59:18,322 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:59:18] "[35m[1mPOST /add_sale HTTP/1.1[0m" 500 -
+2022-11-17 21:59:18,358 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:59:18] "[36mGET /add_sale?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-17 21:59:18,370 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:59:18] "[36mGET /add_sale?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-17 21:59:18,403 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 21:59:18] "[36mGET /add_sale?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-17 22:01:19,244 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 22:01:19,756 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 22:01:30,815 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 22:01:32,317 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 22:01:32,323 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 22:01:34,362 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 22:01:34,953 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 22:01:36,295 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 22:01:36,303 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 22:01:47,438 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-17 22:01:47,439 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-11-17 22:01:47,458 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 22:01:51,453 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 22:01:51,463 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 22:02:00,045 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:02:00] "GET / HTTP/1.1" 200 -
+2022-11-17 22:02:00,281 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:02:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:02:02,187 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:02:02] "POST /login HTTP/1.1" 200 -
+2022-11-17 22:02:02,216 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:02:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:02:03,420 INFO app Thread-6 (process_request_thread) : argument name:Apple
+2022-11-17 22:02:03,454 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:02:03] "GET /add_sale?name=Apple HTTP/1.1" 200 -
+2022-11-17 22:02:03,482 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:02:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:02:13,805 INFO app Thread-8 (process_request_thread) : stock:{'_id': ObjectId('637660f24e578a556325e4fa'), 'name': 'Apple', 'description': 'Apple Iphone pro', 'onhand': 1, 'limit': 5, 'email': 'raagulsridharan01@gmail.com'}
+2022-11-17 22:02:13,846 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:02:13] "[35m[1mPOST /add_sale HTTP/1.1[0m" 500 -
+2022-11-17 22:02:13,921 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:02:13] "[36mGET /add_sale?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:02:13,947 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:02:13] "[36mGET /add_sale?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-11-17 22:02:13,976 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:02:13] "[36mGET /add_sale?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-11-17 22:03:07,293 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 22:03:07,887 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 22:03:09,356 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 22:03:09,362 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 22:03:25,046 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:03:25] "POST /login HTTP/1.1" 200 -
+2022-11-17 22:03:25,192 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:03:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:03:31,711 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:03:31] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-17 22:03:31,723 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:03:31] "GET /login HTTP/1.1" 200 -
+2022-11-17 22:03:31,755 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:03:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:03:34,126 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:03:34] "POST /login HTTP/1.1" 200 -
+2022-11-17 22:03:34,153 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:03:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:04:20,967 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 22:04:21,517 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 22:04:22,938 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 22:04:22,944 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 22:04:27,995 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-17 22:04:28,457 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 22:04:30,052 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 22:04:30,059 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 22:04:31,549 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:04:31] "POST /login HTTP/1.1" 200 -
+2022-11-17 22:04:31,684 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:04:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:04:37,341 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:04:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-17 22:04:37,353 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:04:37] "GET /login HTTP/1.1" 200 -
+2022-11-17 22:04:37,382 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:04:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:04:38,903 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:04:38] "POST /login HTTP/1.1" 200 -
+2022-11-17 22:04:38,932 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:04:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:04:57,862 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-17 22:04:57,862 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-11-17 22:04:57,867 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-17 22:04:59,202 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-17 22:04:59,207 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-17 22:05:02,970 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:02] "POST /login HTTP/1.1" 200 -
+2022-11-17 22:05:03,104 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:05:06,565 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:06] "GET / HTTP/1.1" 200 -
+2022-11-17 22:05:06,620 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:05:09,000 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:09] "POST /login HTTP/1.1" 200 -
+2022-11-17 22:05:09,027 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:05:34,761 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:34] "GET /add_stock HTTP/1.1" 200 -
+2022-11-17 22:05:34,788 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:05:45,147 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:45] "GET / HTTP/1.1" 200 -
+2022-11-17 22:05:45,206 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:05:48,262 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:48] "POST /login HTTP/1.1" 200 -
+2022-11-17 22:05:48,309 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:05:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:06:24,504 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-17 22:06:24,514 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:24] "GET /login HTTP/1.1" 200 -
+2022-11-17 22:06:24,595 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:06:25,753 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:25] "POST /login HTTP/1.1" 200 -
+2022-11-17 22:06:25,782 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:06:29,666 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:29] "GET /add_stock HTTP/1.1" 200 -
+2022-11-17 22:06:29,692 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:06:42,756 INFO app Thread-21 (process_request_thread) : stock:None
+2022-11-17 22:06:42,828 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:42] "POST /add_stock HTTP/1.1" 200 -
+2022-11-17 22:06:42,857 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:06:54,998 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-17 22:06:55,006 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:55] "GET /login HTTP/1.1" 200 -
+2022-11-17 22:06:55,087 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:06:57,159 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:57] "POST /login HTTP/1.1" 200 -
+2022-11-17 22:06:57,184 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:06:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:07:05,675 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:07:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-11-17 22:07:05,682 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:07:05] "GET /login HTTP/1.1" 200 -
+2022-11-17 22:07:05,712 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:07:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:07:07,742 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:07:07] "POST /login HTTP/1.1" 200 -
+2022-11-17 22:07:07,769 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:07:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:07:08,855 INFO app Thread-33 (process_request_thread) : argument name:Haier
+2022-11-17 22:07:08,893 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:07:08] "GET /add_sale?name=Haier HTTP/1.1" 200 -
+2022-11-17 22:07:08,914 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:07:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-17 22:07:22,564 INFO app Thread-35 (process_request_thread) : stock:{'_id': ObjectId('6376631ae67cce35effe646a'), 'name': 'Haier', 'description': 'fridge', 'onhand': 10, 'limit': 8, 'email': 'saravanakumarrc@gmail.com'}
+2022-11-17 22:07:22,606 DEBUG python_http_client.client Thread-35 (process_request_thread) : POST Request: https://api.sendgrid.com/v3/mail/send
+2022-11-17 22:07:22,606 DEBUG python_http_client.client Thread-35 (process_request_thread) : PAYLOAD: b'{"from": {"email": "raagulsridharan01@gmail.com"}, "subject": "Limted Stock Notification of Product: Haier", "personalizations": [{"to": [{"email": "saravanakumarrc@gmail.com"}]}], "content": [{"type": "text/html", "value": "<strong>Hi, <br> The Product \'Haier\' onhand count is 7 only, which lessor than the expected limit 8. <br> kindly increase the stock.</strong>"}]}'
+2022-11-17 22:07:22,607 DEBUG python_http_client.client Thread-35 (process_request_thread) : HEADERS: {'Authorization': 'Bearer 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', 'User-agent': 'sendgrid/6.9.7;python', 'Accept': 'application/json', 'Content-type': 'application/json'}
+2022-11-17 22:07:23,681 DEBUG python_http_client.client Thread-35 (process_request_thread) : POST Response: 202 b''
+2022-11-17 22:07:23,726 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:07:23] "POST /add_sale HTTP/1.1" 200 -
+2022-11-17 22:07:23,755 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:07:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
