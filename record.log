@@ -315,3 +315,14 @@
 2022-11-17 22:07:23,681 DEBUG python_http_client.client Thread-35 (process_request_thread) : POST Response: 202 b''
 2022-11-17 22:07:23,726 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:07:23] "POST /add_sale HTTP/1.1" 200 -
 2022-11-17 22:07:23,755 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [17/Nov/2022 22:07:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-18 00:54:47,497 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-18 00:54:47,498 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-11-18 00:55:24,905 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-18 00:55:24,905 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-11-18 00:55:24,908 INFO werkzeug MainThread :  * Restarting with stat
+2022-11-18 00:55:26,513 WARNING werkzeug MainThread :  * Debugger is active!
+2022-11-18 00:55:26,520 INFO werkzeug MainThread :  * Debugger PIN: 938-671-310
+2022-11-18 00:55:36,657 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Sarava\\Documents\\InventoryManagement\\app.py', reloading
+2022-11-18 00:55:37,252 INFO werkzeug MainThread :  * Restarting with stat

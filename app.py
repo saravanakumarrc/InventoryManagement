@@ -12,10 +12,9 @@ from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 
 app = Flask(__name__)
-
+print("test")
 
 app.secret_key = 'your secret key'
-
 
 @app.route('/')
 @app.route('/login', methods=['GET', 'POST'])
